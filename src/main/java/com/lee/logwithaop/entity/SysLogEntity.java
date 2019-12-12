@@ -1,4 +1,4 @@
-package com.lee.aopwithaop.entity;
+package com.lee.logwithaop.entity;
 
 import java.util.Date;
 

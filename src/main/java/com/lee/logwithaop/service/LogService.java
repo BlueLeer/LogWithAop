@@ -1,6 +1,6 @@
-package com.lee.aopwithaop.service;
+package com.lee.logwithaop.service;
 
-import com.lee.aopwithaop.entity.SysLogEntity;
+import com.lee.logwithaop.entity.SysLogEntity;
 
 import java.util.List;
 

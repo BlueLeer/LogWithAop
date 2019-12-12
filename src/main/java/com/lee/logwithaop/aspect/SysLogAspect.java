@@ -1,9 +1,9 @@
-package com.lee.aopwithaop.aspect;
+package com.lee.logwithaop.aspect;
 
 import com.google.gson.Gson;
-import com.lee.aopwithaop.anno.SysLog;
-import com.lee.aopwithaop.entity.SysLogEntity;
-import com.lee.aopwithaop.service.LogService;
+import com.lee.logwithaop.anno.SysLog;
+import com.lee.logwithaop.entity.SysLogEntity;
+import com.lee.logwithaop.service.LogService;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -33,7 +33,7 @@ public class SysLogAspect {
     /**
      * 定义了切点,意思是只要方法上有SysLog这个注解的都是切点
      */
-    @Pointcut("@annotation(com.lee.aopwithaop.anno.SysLog)")
+    @Pointcut("@annotation(com.lee.logwithaop.anno.SysLog)")
     public void logPointCut() {
 
     }

@@ -1,7 +1,7 @@
-package com.lee.aopwithaop.service.impl;
+package com.lee.logwithaop.service.impl;
 
-import com.lee.aopwithaop.entity.SysLogEntity;
-import com.lee.aopwithaop.service.LogService;
+import com.lee.logwithaop.entity.SysLogEntity;
+import com.lee.logwithaop.service.LogService;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

@@ -1,8 +1,8 @@
-package com.lee.aopwithaop.controller;
+package com.lee.logwithaop.controller;
 
-import com.lee.aopwithaop.anno.SysLog;
-import com.lee.aopwithaop.entity.SysLogEntity;
-import com.lee.aopwithaop.service.LogService;
+import com.lee.logwithaop.anno.SysLog;
+import com.lee.logwithaop.entity.SysLogEntity;
+import com.lee.logwithaop.service.LogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

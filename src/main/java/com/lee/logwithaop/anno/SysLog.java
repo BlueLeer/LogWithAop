@@ -1,4 +1,4 @@
-package com.lee.aopwithaop.anno;
+package com.lee.logwithaop.anno;
 
 import java.lang.annotation.*;
 
